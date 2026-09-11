@@ -1,0 +1,501 @@
+shipment_id,order_date,warehouse,destination_region,vehicle_type,distance_km,weight_kg,shipment_count,warehouse_processing_hours,traffic_level,weather,delivery_days,promised_days,delay_flag,shipping_cost,delay_reason
+SHP0001,2026-01-01,Delhi,North,Van,28.9,23.7,2,10.1,Low,Rain,1.47,1.5,0,297.34,None
+SHP0002,2026-01-02,Kanpur,West,Truck,194.1,33.6,4,14.1,Medium,Clear,5.04,2.5,1,834.82,Warehouse Delay
+SHP0003,2026-01-03,Kanpur,East,Truck,56.8,13.3,1,7.4,High,Clear,1.86,1.5,1,384.47,Weather
+SHP0004,2026-01-04,Jaipur,East,Van,66.5,15.2,2,11.0,Low,Clear,2.09,1.5,1,308.96,Route Congestion
+SHP0005,2026-01-05,Jaipur,Central,Van,266.7,28.5,4,17.4,High,Clear,6.28,4.0,1,962.06,Route Congestion
+SHP0006,2026-01-06,Bareilly,Central,Van,166.9,17.9,4,9.9,Medium,Cloudy,3.87,2.5,1,639.64,Route Congestion
+SHP0007,2026-01-07,Delhi,West,Bike,387.4,25.9,2,16.5,High,Clear,10.49,4.0,1,1227.64,Traffic
+SHP0008,2026-01-08,Kanpur,North,Truck,136.1,16.4,3,14.5,Medium,Clear,3.93,2.5,1,588.37,Weather
+SHP0009,2026-01-09,Lucknow,Central,Van,305.8,7.9,1,2.0,Medium,Clear,6.46,4.0,1,836.82,Warehouse Delay
+SHP0010,2026-01-10,Delhi,North,Bike,195.3,26.2,1,8.3,Medium,Clear,5.5,2.5,1,745.27,Route Congestion
+SHP0011,2026-01-11,Jaipur,East,Bike,278.2,5.0,2,12.9,Medium,Clear,7.36,4.0,1,716.01,Route Congestion
+SHP0012,2026-01-12,Bareilly,West,Truck,253.1,7.4,4,17.8,High,Cloudy,6.43,4.0,1,741.28,Route Congestion
+SHP0013,2026-01-13,Kanpur,East,Bike,200.2,22.1,3,8.8,Low,Clear,5.72,2.5,1,692.45,Traffic
+SHP0014,2026-01-14,Kanpur,East,Bike,399.2,26.3,2,2.6,Low,Clear,9.84,4.0,1,1178.33,Warehouse Delay
+SHP0015,2026-01-15,Kanpur,East,Bike,145.9,31.4,2,10.6,Low,Clear,4.34,2.5,1,677.07,Weather
+SHP0016,2026-01-16,Kanpur,North,Bike,76.9,9.9,1,3.2,High,Clear,2.44,1.5,1,312.94,Weather
+SHP0017,2026-01-17,Jaipur,East,Bike,285.8,4.3,2,13.8,Medium,Clear,7.82,4.0,1,724.67,Warehouse Delay
+SHP0018,2026-01-18,Delhi,North,Van,355.8,33.5,1,9.6,Medium,Cloudy,7.62,4.0,1,1195.63,Traffic
+SHP0019,2026-01-19,Bareilly,Central,Bike,19.8,5.8,1,13.3,High,Rain,1.76,1.5,1,229.54,Traffic
+SHP0020,2026-01-20,Jaipur,West,Truck,190.5,7.3,3,15.8,High,Clear,5.2,2.5,1,581.68,Weather
+SHP0021,2026-01-21,Jaipur,Central,Truck,375.2,10.6,1,11.7,Low,Rain,8.7,4.0,1,1041.53,Warehouse Delay
+SHP0022,2026-01-22,Lucknow,North,Van,315.6,18.8,1,11.4,Medium,Clear,6.85,4.0,1,933.73,Warehouse Delay
+SHP0023,2026-01-23,Delhi,North,Bike,416.6,31.0,3,13.8,High,Clear,11.08,4.0,1,1344.14,Route Congestion
+SHP0024,2026-01-24,Bareilly,East,Van,224.6,26.7,2,15.3,Low,Cloudy,5.18,4.0,1,806.17,Traffic
+SHP0025,2026-01-25,Kanpur,Central,Bike,278.2,24.9,2,15.8,Medium,Cloudy,7.79,4.0,1,908.36,Route Congestion
+SHP0026,2026-01-26,Kanpur,Central,Van,129.1,6.5,1,1.6,Medium,Cloudy,3.32,2.5,1,397.6,Warehouse Delay
+SHP0027,2026-01-27,Jaipur,East,Truck,398.1,12.8,1,10.5,Medium,Clear,9.33,4.0,1,1132.37,Route Congestion
+SHP0028,2026-01-28,Bareilly,North,Truck,155.8,17.0,2,4.7,Medium,Clear,3.96,2.5,1,622.08,Route Congestion
+SHP0029,2026-01-29,Jaipur,East,Van,311.0,5.6,3,15.6,Low,Clear,6.97,4.0,1,828.82,Weather
+SHP0030,2026-01-30,Jaipur,East,Bike,171.1,9.9,2,12.0,Low,Clear,4.69,2.5,1,546.14,Warehouse Delay
+SHP0031,2026-01-31,Jaipur,West,Van,237.3,11.1,3,8.1,Low,Cloudy,5.11,4.0,1,655.98,Traffic
+SHP0032,2026-02-01,Lucknow,North,Van,303.1,4.9,3,4.2,Low,Clear,6.51,4.0,1,821.48,Traffic
+SHP0033,2026-02-02,Delhi,North,Van,215.2,19.5,2,6.8,Medium,Clear,4.76,2.5,1,707.67,Route Congestion
+SHP0034,2026-02-03,Jaipur,Central,Van,381.3,24.8,2,13.0,Medium,Clear,8.22,4.0,1,1151.91,Traffic
+SHP0035,2026-02-04,Bareilly,West,Bike,177.8,2.9,2,4.5,Low,Clear,4.75,2.5,1,419.99,Warehouse Delay
+SHP0036,2026-02-05,Delhi,North,Bike,272.8,17.1,1,2.6,Medium,Clear,6.91,4.0,1,755.99,Warehouse Delay
+SHP0037,2026-02-06,Bareilly,Central,Van,145.8,27.5,3,16.1,Medium,Clear,3.76,2.5,1,683.11,Weather
+SHP0038,2026-02-07,Bareilly,North,Bike,173.2,26.3,3,14.0,Medium,Clear,5.13,2.5,1,691.76,Route Congestion
+SHP0039,2026-02-08,Lucknow,West,Bike,186.5,28.6,2,4.4,High,Clear,5.08,2.5,1,732.75,Weather
+SHP0040,2026-02-09,Kanpur,North,Truck,55.5,16.0,2,6.0,Medium,Clear,1.75,1.5,1,381.25,Route Congestion
+SHP0041,2026-02-10,Delhi,West,Truck,41.2,28.8,2,17.5,High,Clear,2.05,1.5,1,565.98,Weather
+SHP0042,2026-02-11,Kanpur,North,Van,281.3,8.8,3,13.0,Low,Cloudy,6.38,4.0,1,813.63,Warehouse Delay
+SHP0043,2026-02-12,Kanpur,North,Truck,276.4,12.9,4,11.4,Medium,Clear,6.64,4.0,1,824.35,Traffic
+SHP0044,2026-02-13,Lucknow,North,Truck,279.4,6.6,1,6.2,High,Clear,6.62,4.0,1,792.42,Traffic
+SHP0045,2026-02-14,Delhi,East,Bike,11.2,16.6,2,6.1,High,Clear,1.15,1.5,0,348.55,None
+SHP0046,2026-02-15,Bareilly,North,Van,139.2,14.0,1,1.7,Medium,Rain,3.27,2.5,1,551.55,Traffic
+SHP0047,2026-02-16,Jaipur,Central,Van,85.5,8.8,2,13.4,Medium,Cloudy,2.62,2.5,1,350.0,Warehouse Delay
+SHP0048,2026-02-17,Bareilly,West,Bike,327.5,26.4,1,1.7,Medium,Clear,8.36,4.0,1,1029.92,Warehouse Delay
+SHP0049,2026-02-18,Kanpur,West,Van,361.9,11.3,2,1.1,Medium,Clear,7.52,4.0,1,989.31,Warehouse Delay
+SHP0050,2026-02-19,Kanpur,West,Van,105.9,9.9,2,13.4,Medium,Clear,3.01,2.5,1,435.17,Route Congestion
+SHP0051,2026-02-20,Kanpur,East,Van,281.5,5.0,2,17.1,High,Rain,6.8,4.0,1,789.57,Route Congestion
+SHP0052,2026-02-21,Delhi,Central,Bike,56.9,15.6,2,13.9,Medium,Clear,2.27,1.5,1,357.53,Weather
+SHP0053,2026-02-22,Lucknow,East,Bike,117.7,11.0,4,9.0,Low,Clear,3.42,2.5,1,493.35,Traffic
+SHP0054,2026-02-23,Jaipur,Central,Truck,60.8,13.2,4,9.3,Medium,Rain,2.28,1.5,1,414.85,Warehouse Delay
+SHP0055,2026-02-24,Jaipur,East,Bike,121.2,8.6,1,8.4,Low,Cloudy,3.66,2.5,1,411.69,Weather
+SHP0056,2026-02-25,Delhi,West,Bike,284.4,26.8,2,6.5,Low,Clear,7.45,4.0,1,981.83,Weather
+SHP0057,2026-02-26,Jaipur,West,Bike,382.6,32.6,4,9.9,Low,Clear,9.91,4.0,1,1195.46,Warehouse Delay
+SHP0058,2026-02-27,Delhi,East,Van,87.5,17.7,3,8.3,Medium,Clear,2.47,2.5,0,515.23,None
+SHP0059,2026-02-28,Kanpur,East,Van,229.0,22.7,1,11.2,Low,Clear,5.3,4.0,1,772.64,Warehouse Delay
+SHP0060,2026-03-01,Kanpur,East,Van,295.5,30.4,3,16.3,Low,Clear,6.82,4.0,1,1104.41,Weather
+SHP0061,2026-03-02,Bareilly,West,Bike,400.4,35.0,1,17.9,Low,Rain,10.84,4.0,1,1191.12,Traffic
+SHP0062,2026-03-03,Kanpur,North,Bike,257.4,21.7,1,2.3,High,Rain,6.87,4.0,1,856.58,Weather
+SHP0063,2026-03-04,Lucknow,Central,Truck,109.4,31.2,3,7.5,Medium,Clear,3.19,2.5,1,641.67,Traffic
+SHP0064,2026-03-05,Bareilly,North,Van,263.8,31.8,3,4.1,Low,Clear,5.62,4.0,1,948.27,Weather
+SHP0065,2026-03-06,Jaipur,East,Van,136.6,27.8,4,7.0,Low,Clear,3.34,2.5,1,705.14,Route Congestion
+SHP0066,2026-03-07,Lucknow,North,Van,410.0,16.4,2,5.9,Medium,Clear,8.6,4.0,1,1104.71,Weather
+SHP0067,2026-03-08,Bareilly,North,Van,169.7,3.3,4,4.0,Low,Cloudy,3.83,2.5,1,519.23,Warehouse Delay
+SHP0068,2026-03-09,Lucknow,North,Bike,288.8,1.0,2,14.0,Medium,Clear,7.8,4.0,1,769.61,Route Congestion
+SHP0069,2026-03-10,Delhi,West,Van,12.7,17.0,3,9.4,Medium,Clear,1.15,1.5,0,315.97,None
+SHP0070,2026-03-11,Jaipur,West,Van,169.8,17.6,1,16.6,High,Clear,4.86,2.5,1,621.84,Warehouse Delay
+SHP0071,2026-03-12,Kanpur,East,Bike,367.9,14.6,1,1.6,Low,Clear,9.13,4.0,1,1028.66,Traffic
+SHP0072,2026-03-13,Delhi,Central,Truck,257.5,20.1,4,2.1,Medium,Clear,5.89,4.0,1,900.55,Traffic
+SHP0073,2026-03-14,Jaipur,Central,Van,188.1,19.5,4,7.9,Low,Cloudy,4.26,2.5,1,693.9,Traffic
+SHP0074,2026-03-15,Delhi,North,Van,393.3,29.4,4,2.4,High,Cloudy,8.18,4.0,1,1285.35,Traffic
+SHP0075,2026-03-16,Kanpur,North,Truck,359.1,4.2,2,5.5,High,Clear,8.45,4.0,1,961.78,Weather
+SHP0076,2026-03-17,Jaipur,Central,Van,137.4,8.3,1,17.8,Medium,Cloudy,3.76,2.5,1,454.35,Weather
+SHP0077,2026-03-18,Lucknow,East,Truck,230.1,27.9,4,4.6,Medium,Clear,5.36,4.0,1,891.24,Route Congestion
+SHP0078,2026-03-19,Lucknow,West,Van,207.3,29.8,3,4.4,Low,Cloudy,4.35,2.5,1,795.98,Weather
+SHP0079,2026-03-20,Jaipur,East,Truck,266.6,34.8,1,10.8,High,Clear,6.47,4.0,1,988.69,Route Congestion
+SHP0080,2026-03-21,Kanpur,North,Bike,142.3,30.6,4,9.5,Medium,Clear,4.01,2.5,1,667.64,Weather
+SHP0081,2026-03-22,Bareilly,North,Van,104.8,31.2,4,10.9,Low,Rain,3.0,2.5,1,572.8,Warehouse Delay
+SHP0082,2026-03-23,Jaipur,East,Van,383.6,11.3,2,7.4,Medium,Clear,8.45,4.0,1,1033.21,Weather
+SHP0083,2026-03-24,Delhi,North,Bike,388.3,14.4,4,15.1,Medium,Clear,10.26,4.0,1,1086.5,Warehouse Delay
+SHP0084,2026-03-25,Bareilly,North,Van,354.7,9.7,4,3.4,High,Clear,7.32,4.0,1,1025.44,Warehouse Delay
+SHP0085,2026-03-26,Kanpur,Central,Truck,410.9,21.4,3,8.3,Medium,Clear,9.45,4.0,1,1204.56,Warehouse Delay
+SHP0086,2026-03-27,Kanpur,East,Van,313.7,32.9,3,12.7,Medium,Clear,6.91,4.0,1,1059.6,Weather
+SHP0087,2026-03-28,Delhi,West,Bike,321.9,12.4,2,15.8,Medium,Clear,8.91,4.0,1,953.98,Warehouse Delay
+SHP0088,2026-03-29,Lucknow,North,Bike,321.0,19.7,4,7.3,Low,Cloudy,8.28,4.0,1,951.08,Weather
+SHP0089,2026-03-30,Kanpur,East,Bike,203.4,10.7,4,10.7,Medium,Clear,5.65,2.5,1,641.44,Route Congestion
+SHP0090,2026-03-31,Bareilly,East,Bike,193.3,6.4,4,2.2,Low,Clear,5.02,2.5,1,583.08,Warehouse Delay
+SHP0091,2026-04-01,Jaipur,East,Truck,103.2,7.2,3,3.9,Medium,Clear,2.84,2.5,1,333.4,Warehouse Delay
+SHP0092,2026-04-02,Bareilly,East,Van,271.9,2.5,1,2.2,Medium,Cloudy,5.75,4.0,1,666.42,Warehouse Delay
+SHP0093,2026-04-03,Bareilly,North,Bike,123.6,33.3,2,13.4,Medium,Clear,3.87,2.5,1,698.78,Route Congestion
+SHP0094,2026-04-04,Lucknow,East,Van,110.5,14.4,2,5.9,Low,Clear,2.7,2.5,1,375.37,Traffic
+SHP0095,2026-04-05,Bareilly,Central,Bike,247.3,29.3,4,13.3,Low,Clear,6.64,4.0,1,927.51,Route Congestion
+SHP0096,2026-04-06,Lucknow,East,Bike,174.0,24.0,3,2.1,Medium,Cloudy,4.73,2.5,1,753.99,Warehouse Delay
+SHP0097,2026-04-07,Lucknow,West,Van,94.3,7.1,3,15.7,Low,Cloudy,2.62,2.5,1,334.71,Route Congestion
+SHP0098,2026-04-08,Kanpur,East,Van,343.3,6.6,1,15.2,Low,Clear,7.53,4.0,1,864.71,Route Congestion
+SHP0099,2026-04-09,Kanpur,West,Truck,361.9,28.5,4,2.5,Medium,Cloudy,8.19,4.0,1,1196.75,Route Congestion
+SHP0100,2026-04-10,Delhi,West,Van,72.9,9.6,2,1.4,Medium,Clear,1.93,1.5,1,325.8,Route Congestion
+SHP0101,2026-04-11,Bareilly,West,Van,6.1,32.0,1,2.0,Medium,Clear,0.7,1.5,0,418.49,None
+SHP0102,2026-04-12,Delhi,East,Van,143.2,5.3,4,15.5,Medium,Clear,3.83,2.5,1,455.09,Weather
+SHP0103,2026-04-13,Bareilly,West,Truck,335.6,23.9,1,5.0,High,Clear,7.9,4.0,1,1051.92,Traffic
+SHP0104,2026-04-14,Delhi,North,Van,352.9,28.6,1,10.3,Low,Clear,7.68,4.0,1,1045.16,Warehouse Delay
+SHP0105,2026-04-15,Kanpur,East,Truck,60.7,8.6,1,8.2,Medium,Clear,2.09,1.5,1,306.9,Traffic
+SHP0106,2026-04-16,Kanpur,West,Van,325.9,10.0,2,14.5,High,Clear,7.54,4.0,1,975.21,Weather
+SHP0107,2026-04-17,Kanpur,Central,Truck,51.2,33.8,1,9.3,Medium,Clear,1.98,1.5,1,494.84,Weather
+SHP0108,2026-04-18,Kanpur,West,Bike,165.7,9.6,4,9.5,Medium,Clear,4.72,2.5,1,521.16,Weather
+SHP0109,2026-04-19,Jaipur,East,Van,419.4,15.3,3,17.8,Medium,Cloudy,9.1,4.0,1,1112.52,Traffic
+SHP0110,2026-04-20,Kanpur,East,Van,83.3,15.4,2,3.6,Medium,Cloudy,2.26,2.5,0,430.51,None
+SHP0111,2026-04-21,Lucknow,East,Van,67.2,9.2,1,15.1,Medium,Clear,2.42,1.5,1,378.82,Weather
+SHP0112,2026-04-22,Kanpur,Central,Van,179.3,27.3,2,1.9,Medium,Clear,4.09,2.5,1,743.98,Route Congestion
+SHP0113,2026-04-23,Jaipur,East,Truck,261.4,27.1,1,9.1,Low,Clear,6.06,4.0,1,849.37,Route Congestion
+SHP0114,2026-04-24,Jaipur,Central,Truck,392.0,13.6,4,16.1,Low,Clear,9.08,4.0,1,1085.02,Traffic
+SHP0115,2026-04-25,Jaipur,West,Bike,412.0,29.3,2,12.3,Medium,Clear,10.81,4.0,1,1240.12,Warehouse Delay
+SHP0116,2026-04-26,Jaipur,West,Van,32.0,7.9,2,12.6,Low,Clear,1.48,1.5,0,195.66,None
+SHP0117,2026-04-27,Delhi,North,Van,60.5,0.6,1,5.5,Medium,Cloudy,1.62,1.5,1,188.93,Route Congestion
+SHP0118,2026-04-28,Delhi,Central,Bike,332.7,20.2,1,8.1,Medium,Clear,8.74,4.0,1,1033.4,Traffic
+SHP0119,2026-04-29,Lucknow,North,Bike,115.9,34.8,1,7.2,High,Clear,3.4,2.5,1,605.51,Route Congestion
+SHP0120,2026-04-30,Delhi,North,Bike,372.0,1.8,1,9.9,Low,Clear,9.51,4.0,1,900.93,Traffic
+SHP0121,2026-05-01,Jaipur,Central,Van,279.7,7.7,3,8.9,Medium,Cloudy,6.37,4.0,1,765.42,Traffic
+SHP0122,2026-05-02,Kanpur,Central,Van,49.6,18.4,4,6.6,Medium,Clear,1.88,1.5,1,380.88,Route Congestion
+SHP0123,2026-05-03,Kanpur,North,Truck,350.2,28.4,4,6.2,Low,Cloudy,7.78,4.0,1,1160.76,Warehouse Delay
+SHP0124,2026-05-04,Jaipur,Central,Van,76.5,3.6,2,5.3,Low,Clear,2.0,1.5,1,240.88,Warehouse Delay
+SHP0125,2026-05-05,Bareilly,West,Truck,179.6,14.1,4,7.2,Low,Clear,4.4,2.5,1,582.24,Weather
+SHP0126,2026-05-06,Jaipur,North,Van,233.3,26.3,3,3.5,Low,Clear,5.2,4.0,1,814.73,Warehouse Delay
+SHP0127,2026-05-07,Delhi,Central,Van,211.8,13.3,1,15.8,Low,Clear,5.02,2.5,1,646.55,Weather
+SHP0128,2026-05-08,Kanpur,Central,Bike,289.1,7.0,1,11.2,Medium,Rain,7.83,4.0,1,756.1,Warehouse Delay
+SHP0129,2026-05-09,Jaipur,West,Van,275.2,7.2,3,3.3,Medium,Clear,6.05,4.0,1,712.39,Warehouse Delay
+SHP0130,2026-05-10,Kanpur,Central,Truck,416.7,14.6,2,12.8,Low,Rain,9.62,4.0,1,1066.01,Warehouse Delay
+SHP0131,2026-05-11,Jaipur,West,Truck,419.8,17.0,1,15.4,Low,Clear,9.82,4.0,1,1157.42,Traffic
+SHP0132,2026-05-12,Jaipur,Central,Truck,218.4,30.2,4,5.0,Low,Cloudy,4.95,2.5,1,836.98,Warehouse Delay
+SHP0133,2026-05-13,Delhi,Central,Bike,42.7,22.7,3,3.6,Medium,Rain,1.68,1.5,1,422.89,Weather
+SHP0134,2026-05-14,Jaipur,Central,Van,306.5,24.3,3,1.1,Low,Clear,6.09,4.0,1,949.53,Traffic
+SHP0135,2026-05-15,Kanpur,North,Bike,410.3,34.4,4,1.8,Medium,Clear,10.15,4.0,1,1291.66,Traffic
+SHP0136,2026-05-16,Lucknow,West,Bike,135.7,14.7,4,14.0,Low,Cloudy,4.29,2.5,1,575.77,Weather
+SHP0137,2026-05-17,Kanpur,North,Van,195.3,14.4,4,17.8,Low,Clear,4.84,2.5,1,635.91,Warehouse Delay
+SHP0138,2026-05-18,Delhi,Central,Van,180.1,32.4,2,1.8,High,Rain,4.16,2.5,1,807.3,Traffic
+SHP0139,2026-05-19,Lucknow,East,Van,24.4,9.0,4,13.7,Low,Clear,1.3,1.5,0,264.82,None
+SHP0140,2026-05-20,Jaipur,East,Truck,283.3,25.7,3,2.2,Low,Clear,6.32,4.0,1,896.11,Route Congestion
+SHP0141,2026-05-21,Bareilly,West,Van,150.3,26.5,3,11.1,Low,Clear,3.74,2.5,1,621.83,Traffic
+SHP0142,2026-05-22,Lucknow,East,Truck,331.4,3.9,4,13.9,High,Cloudy,8.18,4.0,1,915.97,Traffic
+SHP0143,2026-05-23,Lucknow,East,Bike,350.0,16.7,1,7.1,Medium,Rain,8.85,4.0,1,989.81,Warehouse Delay
+SHP0144,2026-05-24,Jaipur,Central,Bike,345.5,7.4,2,1.2,Medium,Clear,8.61,4.0,1,917.51,Weather
+SHP0145,2026-05-25,Bareilly,East,Van,176.7,6.9,1,11.1,High,Cloudy,4.46,2.5,1,647.21,Traffic
+SHP0146,2026-05-26,Bareilly,Central,Truck,137.1,16.5,2,17.9,Low,Rain,4.04,2.5,1,524.03,Route Congestion
+SHP0147,2026-05-27,Delhi,Central,Bike,315.3,10.5,2,5.4,High,Clear,8.34,4.0,1,833.16,Warehouse Delay
+SHP0148,2026-05-28,Lucknow,West,Van,337.2,28.0,4,4.2,Low,Clear,7.04,4.0,1,1081.4,Traffic
+SHP0149,2026-05-29,Bareilly,East,Van,207.9,31.8,4,3.1,Medium,Cloudy,4.54,2.5,1,857.51,Route Congestion
+SHP0150,2026-05-30,Delhi,East,Bike,375.4,28.2,2,10.4,Medium,Clear,9.74,4.0,1,1161.43,Traffic
+SHP0151,2026-05-31,Bareilly,Central,Van,63.0,9.7,2,11.1,Medium,Clear,2.08,1.5,1,330.36,Traffic
+SHP0152,2026-06-01,Lucknow,West,Truck,369.6,10.0,3,14.5,High,Cloudy,9.02,4.0,1,1039.64,Route Congestion
+SHP0153,2026-06-02,Bareilly,North,Van,43.1,9.3,4,13.8,Low,Clear,1.67,1.5,1,267.52,Weather
+SHP0154,2026-06-03,Lucknow,East,Bike,67.0,5.2,4,16.2,High,Rain,2.93,1.5,1,380.31,Warehouse Delay
+SHP0155,2026-06-04,Jaipur,West,Truck,225.6,33.1,1,14.7,Medium,Cloudy,5.79,4.0,1,850.97,Weather
+SHP0156,2026-06-05,Kanpur,West,Bike,31.2,14.4,1,5.2,Medium,Cloudy,1.6,1.5,1,250.51,Weather
+SHP0157,2026-06-06,Delhi,East,Truck,25.0,8.3,3,10.4,High,Clear,1.48,1.5,0,390.28,None
+SHP0158,2026-06-07,Jaipur,West,Bike,3.2,29.7,2,6.1,Low,Clear,0.8,1.5,0,318.12,None
+SHP0159,2026-06-08,Jaipur,North,Van,184.9,14.3,1,6.6,High,Clear,4.54,2.5,1,661.74,Weather
+SHP0160,2026-06-09,Kanpur,Central,Van,326.0,1.7,1,16.8,Medium,Clear,7.39,4.0,1,750.85,Warehouse Delay
+SHP0161,2026-06-10,Bareilly,North,Bike,17.5,6.1,2,12.6,Medium,Cloudy,1.37,1.5,0,195.6,None
+SHP0162,2026-06-11,Kanpur,West,Truck,275.0,22.6,2,17.6,Low,Clear,6.77,4.0,1,830.99,Weather
+SHP0163,2026-06-12,Jaipur,North,Bike,346.2,27.5,3,8.1,Medium,Clear,8.98,4.0,1,1087.34,Traffic
+SHP0164,2026-06-13,Jaipur,North,Bike,73.1,7.8,1,10.1,Medium,Clear,2.7,1.5,1,350.94,Route Congestion
+SHP0165,2026-06-14,Jaipur,West,Bike,64.2,32.2,3,9.3,Medium,Clear,2.38,1.5,1,555.35,Warehouse Delay
+SHP0166,2026-06-15,Bareilly,West,Van,362.0,29.9,3,2.8,Low,Clear,7.46,4.0,1,1148.29,Warehouse Delay
+SHP0167,2026-06-16,Lucknow,West,Truck,346.2,29.8,2,5.0,Low,Clear,7.64,4.0,1,1019.54,Route Congestion
+SHP0168,2026-06-17,Delhi,East,Truck,227.7,8.4,1,10.0,High,Cloudy,5.62,4.0,1,761.45,Route Congestion
+SHP0169,2026-06-18,Lucknow,East,Bike,344.6,2.2,3,2.1,Low,Clear,8.9,4.0,1,799.97,Route Congestion
+SHP0170,2026-06-19,Delhi,North,Van,41.7,30.4,3,16.8,Medium,Cloudy,1.93,1.5,1,527.75,Weather
+SHP0171,2026-06-20,Delhi,East,Bike,167.5,11.1,2,3.1,High,Cloudy,4.6,2.5,1,639.78,Route Congestion
+SHP0172,2026-06-21,Delhi,West,Van,310.7,21.9,2,4.4,Low,Clear,6.68,4.0,1,954.31,Traffic
+SHP0173,2026-06-22,Kanpur,West,Truck,110.4,26.7,3,14.0,Low,Cloudy,3.29,2.5,1,528.74,Weather
+SHP0174,2026-06-23,Kanpur,North,Van,316.7,4.9,2,2.6,Medium,Clear,6.7,4.0,1,829.31,Warehouse Delay
+SHP0175,2026-06-24,Kanpur,West,Van,213.2,27.4,2,16.3,Low,Clear,5.11,2.5,1,757.5,Warehouse Delay
+SHP0176,2026-06-25,Jaipur,West,Van,315.9,32.9,2,13.3,Medium,Clear,7.02,4.0,1,1075.3,Traffic
+SHP0177,2026-06-26,Kanpur,West,Truck,196.8,25.6,2,2.2,Medium,Clear,4.6,2.5,1,743.77,Traffic
+SHP0178,2026-06-27,Delhi,North,Van,156.4,15.7,3,12.8,Medium,Cloudy,3.83,2.5,1,517.21,Warehouse Delay
+SHP0179,2026-06-28,Bareilly,West,Bike,94.4,30.7,2,11.7,Medium,Rain,3.26,2.5,1,617.52,Route Congestion
+SHP0180,2026-06-29,Jaipur,East,Van,89.9,18.7,2,13.9,Medium,Cloudy,2.8,2.5,1,457.75,Weather
+SHP0181,2026-06-30,Bareilly,West,Bike,316.4,26.2,3,15.1,Medium,Clear,8.82,4.0,1,1010.09,Warehouse Delay
+SHP0182,2026-07-01,Delhi,North,Bike,52.6,28.8,2,13.2,Low,Clear,2.16,1.5,1,421.68,Warehouse Delay
+SHP0183,2026-07-02,Jaipur,East,Bike,38.9,26.4,1,11.0,Medium,Rain,1.64,1.5,1,420.78,Weather
+SHP0184,2026-07-03,Kanpur,East,Van,76.5,10.4,4,6.5,High,Clear,2.29,1.5,1,394.79,Traffic
+SHP0185,2026-07-04,Jaipur,North,Van,76.1,4.6,1,12.9,Medium,Clear,2.76,1.5,1,213.08,Weather
+SHP0186,2026-07-05,Jaipur,East,Bike,346.2,8.7,3,17.3,Medium,Clear,9.5,4.0,1,947.88,Weather
+SHP0187,2026-07-06,Delhi,Central,Van,169.2,17.8,2,11.0,Low,Clear,3.96,2.5,1,611.15,Traffic
+SHP0188,2026-07-07,Lucknow,West,Truck,416.0,17.9,1,12.3,Low,Clear,9.6,4.0,1,1105.51,Weather
+SHP0189,2026-07-08,Lucknow,Central,Van,60.2,20.6,1,8.4,Low,Clear,1.77,1.5,1,331.65,Weather
+SHP0190,2026-07-09,Lucknow,East,Van,275.5,14.1,4,13.9,Low,Clear,6.06,4.0,1,815.34,Weather
+SHP0191,2026-07-10,Kanpur,East,Bike,190.1,27.6,2,18.0,High,Clear,5.79,2.5,1,749.86,Warehouse Delay
+SHP0192,2026-07-11,Kanpur,East,Truck,166.8,32.0,2,3.7,Low,Clear,3.99,2.5,1,679.67,Weather
+SHP0193,2026-07-12,Kanpur,East,Bike,367.9,9.0,3,4.4,High,Clear,9.28,4.0,1,1001.71,Route Congestion
+SHP0194,2026-07-13,Lucknow,East,Bike,409.8,25.9,1,10.2,Low,Clear,10.39,4.0,1,1200.71,Traffic
+SHP0195,2026-07-14,Bareilly,North,Truck,367.0,23.9,3,9.2,Low,Cloudy,8.4,4.0,1,1072.46,Weather
+SHP0196,2026-07-15,Delhi,Central,Van,83.2,18.5,2,10.7,Medium,Clear,2.43,2.5,0,428.7,None
+SHP0197,2026-07-16,Lucknow,West,Van,95.1,7.0,3,1.8,Low,Cloudy,2.32,2.5,0,416.88,None
+SHP0198,2026-07-17,Delhi,West,Van,276.6,27.9,1,7.9,Medium,Cloudy,5.96,4.0,1,945.13,Warehouse Delay
+SHP0199,2026-07-18,Lucknow,North,Van,123.5,33.6,4,10.9,High,Clear,3.47,2.5,1,747.79,Route Congestion
+SHP0200,2026-07-19,Bareilly,North,Bike,309.4,25.4,1,10.9,High,Cloudy,8.26,4.0,1,1012.87,Warehouse Delay
+SHP0201,2026-07-20,Lucknow,West,Bike,239.2,32.2,3,12.2,Low,Cloudy,6.77,4.0,1,864.21,Weather
+SHP0202,2026-07-21,Bareilly,West,Bike,232.7,34.5,3,13.2,Medium,Clear,6.32,4.0,1,845.28,Traffic
+SHP0203,2026-07-22,Jaipur,North,Bike,348.5,12.6,2,11.9,Low,Clear,9.01,4.0,1,965.58,Route Congestion
+SHP0204,2026-07-23,Kanpur,North,Truck,299.3,22.5,1,14.4,High,Clear,7.44,4.0,1,993.69,Weather
+SHP0205,2026-07-24,Jaipur,North,Bike,14.1,16.9,2,11.6,Medium,Rain,1.56,1.5,1,275.14,Route Congestion
+SHP0206,2026-07-25,Lucknow,West,Van,23.6,34.5,4,10.1,Low,Cloudy,1.28,1.5,0,449.44,None
+SHP0207,2026-07-26,Kanpur,North,Van,253.8,3.7,4,11.3,Low,Rain,5.87,4.0,1,697.74,Warehouse Delay
+SHP0208,2026-07-27,Bareilly,West,Van,205.7,14.7,4,2.7,Low,Rain,4.52,2.5,1,613.14,Warehouse Delay
+SHP0209,2026-07-28,Lucknow,Central,Van,111.5,30.7,1,5.6,Low,Clear,2.6,2.5,1,552.38,Weather
+SHP0210,2026-07-29,Kanpur,Central,Van,177.6,10.3,3,10.0,High,Cloudy,4.35,2.5,1,590.77,Route Congestion
+SHP0211,2026-07-30,Lucknow,West,Truck,319.0,27.7,1,15.8,Medium,Clear,7.59,4.0,1,1084.15,Traffic
+SHP0212,2026-07-31,Kanpur,West,Van,347.7,13.7,3,12.5,High,Cloudy,7.63,4.0,1,1057.5,Route Congestion
+SHP0213,2026-08-01,Kanpur,West,Truck,237.0,34.3,2,2.5,Low,Clear,5.44,4.0,1,810.16,Route Congestion
+SHP0214,2026-08-02,Jaipur,East,Truck,163.7,31.0,3,11.1,Medium,Clear,4.17,2.5,1,688.97,Traffic
+SHP0215,2026-08-03,Kanpur,East,Van,115.9,10.9,3,4.8,Low,Cloudy,2.84,2.5,1,423.65,Traffic
+SHP0216,2026-08-04,Lucknow,East,Bike,220.6,27.1,4,13.5,Medium,Cloudy,6.11,4.0,1,824.65,Weather
+SHP0217,2026-08-05,Delhi,West,Van,134.3,12.1,2,15.1,Low,Clear,3.6,2.5,1,420.29,Route Congestion
+SHP0218,2026-08-06,Delhi,Central,Bike,238.2,21.4,2,11.1,Low,Clear,6.43,4.0,1,841.8,Warehouse Delay
+SHP0219,2026-08-07,Jaipur,North,Van,285.2,23.2,3,11.1,Medium,Clear,6.55,4.0,1,943.92,Weather
+SHP0220,2026-08-08,Bareilly,West,Truck,30.6,29.1,1,6.8,Low,Rain,1.41,1.5,0,401.31,None
+SHP0221,2026-08-09,Delhi,North,Van,3.4,1.3,1,8.6,Medium,Clear,1.01,1.5,0,81.79,None
+SHP0222,2026-08-10,Jaipur,East,Van,91.5,8.1,3,15.7,Medium,Clear,2.76,2.5,1,405.9,Traffic
+SHP0223,2026-08-11,Kanpur,East,Bike,376.0,25.1,4,13.3,Low,Clear,9.86,4.0,1,1113.98,Route Congestion
+SHP0224,2026-08-12,Lucknow,North,Truck,272.5,19.9,3,9.8,High,Clear,6.53,4.0,1,911.06,Warehouse Delay
+SHP0225,2026-08-13,Kanpur,East,Bike,74.7,17.6,4,7.3,Medium,Clear,2.47,1.5,1,463.39,Warehouse Delay
+SHP0226,2026-08-14,Lucknow,North,Bike,374.2,2.4,1,1.9,High,Clear,9.52,4.0,1,901.12,Warehouse Delay
+SHP0227,2026-08-15,Bareilly,West,Bike,199.0,12.5,2,3.4,Medium,Cloudy,5.25,2.5,1,695.25,Weather
+SHP0228,2026-08-16,Jaipur,North,Bike,201.5,30.3,3,4.3,Medium,Rain,5.37,2.5,1,823.31,Warehouse Delay
+SHP0229,2026-08-17,Jaipur,Central,Van,393.1,1.6,2,7.3,Medium,Rain,8.23,4.0,1,1003.4,Weather
+SHP0230,2026-08-18,Delhi,West,Van,27.8,14.2,1,17.1,High,Clear,1.52,1.5,1,281.93,Weather
+SHP0231,2026-08-19,Jaipur,West,Bike,92.7,33.1,1,9.6,Medium,Clear,2.91,2.5,1,551.89,Traffic
+SHP0232,2026-08-20,Bareilly,Central,Bike,247.3,2.3,4,5.0,Low,Cloudy,6.54,4.0,1,604.73,Warehouse Delay
+SHP0233,2026-08-21,Delhi,East,Bike,84.5,26.4,3,2.8,Low,Cloudy,2.31,2.5,0,509.04,None
+SHP0234,2026-08-22,Kanpur,East,Van,286.4,9.4,2,6.8,Medium,Clear,6.06,4.0,1,801.67,Traffic
+SHP0235,2026-08-23,Jaipur,North,Bike,92.3,30.4,2,14.9,Low,Cloudy,3.4,2.5,1,524.79,Route Congestion
+SHP0236,2026-08-24,Kanpur,West,Van,44.3,26.2,1,7.5,Low,Cloudy,1.46,1.5,0,352.55,None
+SHP0237,2026-08-25,Kanpur,West,Bike,89.3,31.1,4,14.1,Low,Cloudy,3.12,2.5,1,520.56,Weather
+SHP0238,2026-08-26,Jaipur,Central,Bike,179.3,7.9,1,14.6,Medium,Cloudy,5.41,2.5,1,541.9,Route Congestion
+SHP0239,2026-08-27,Lucknow,West,Van,76.4,18.8,4,2.9,Low,Clear,2.02,1.5,1,410.16,Weather
+SHP0240,2026-08-28,Kanpur,East,Van,59.2,27.4,1,11.3,Medium,Clear,1.86,1.5,1,436.88,Route Congestion
+SHP0241,2026-08-29,Delhi,East,Bike,361.7,9.0,2,17.3,Medium,Clear,9.74,4.0,1,1011.8,Weather
+SHP0242,2026-08-30,Jaipur,East,Bike,136.6,8.5,2,7.8,High,Clear,3.94,2.5,1,511.31,Warehouse Delay
+SHP0243,2026-08-31,Delhi,West,Truck,153.4,1.4,4,1.9,Low,Cloudy,3.94,2.5,1,479.86,Weather
+SHP0244,2026-09-01,Kanpur,Central,Bike,26.0,33.6,1,16.7,Medium,Clear,1.56,1.5,1,426.64,Warehouse Delay
+SHP0245,2026-09-02,Kanpur,East,Van,152.0,25.0,2,16.0,Medium,Clear,3.9,2.5,1,659.37,Route Congestion
+SHP0246,2026-09-03,Delhi,Central,Van,113.4,22.4,2,9.9,Medium,Cloudy,2.92,2.5,1,542.47,Traffic
+SHP0247,2026-09-04,Kanpur,West,Bike,257.6,26.2,2,10.4,Medium,Cloudy,6.84,4.0,1,829.22,Route Congestion
+SHP0248,2026-09-05,Jaipur,Central,Van,88.6,18.8,1,4.6,Low,Cloudy,2.43,2.5,0,466.68,None
+SHP0249,2026-09-06,Kanpur,Central,Van,373.4,16.9,4,14.9,High,Clear,8.65,4.0,1,1118.18,Traffic
+SHP0250,2026-09-07,Delhi,North,Truck,390.7,16.0,2,9.5,Low,Cloudy,8.85,4.0,1,1079.13,Weather
+SHP0251,2026-09-08,Delhi,East,Bike,44.6,22.6,2,1.6,High,Clear,1.53,1.5,1,416.97,Route Congestion
+SHP0252,2026-09-09,Jaipur,North,Bike,47.8,7.5,2,12.6,Medium,Clear,1.83,1.5,1,263.5,Weather
+SHP0253,2026-09-10,Delhi,North,Bike,51.1,31.1,4,17.2,Low,Clear,2.25,1.5,1,452.43,Warehouse Delay
+SHP0254,2026-09-11,Lucknow,East,Van,261.4,28.5,2,15.1,Medium,Clear,6.05,4.0,1,960.77,Route Congestion
+SHP0255,2026-09-12,Kanpur,West,Van,53.9,12.6,2,5.7,Low,Cloudy,1.57,1.5,1,309.18,Weather
+SHP0256,2026-09-13,Delhi,Central,Bike,358.4,20.5,2,1.9,Medium,Clear,9.07,4.0,1,1066.91,Traffic
+SHP0257,2026-09-14,Kanpur,West,Bike,317.5,5.4,2,17.0,Medium,Clear,8.75,4.0,1,877.76,Traffic
+SHP0258,2026-09-15,Delhi,Central,Truck,344.9,34.0,1,16.9,Low,Cloudy,8.3,4.0,1,1145.01,Weather
+SHP0259,2026-09-16,Delhi,North,Bike,222.4,31.6,3,10.1,Low,Cloudy,6.05,4.0,1,870.35,Warehouse Delay
+SHP0260,2026-09-17,Jaipur,West,Van,418.6,32.3,1,11.9,Medium,Clear,8.85,4.0,1,1227.93,Traffic
+SHP0261,2026-09-18,Kanpur,North,Van,21.4,12.0,1,8.9,Low,Rain,1.32,1.5,0,186.66,None
+SHP0262,2026-09-19,Delhi,West,Bike,170.3,6.3,1,8.1,High,Cloudy,4.97,2.5,1,519.71,Traffic
+SHP0263,2026-09-20,Lucknow,East,Bike,138.1,7.8,2,3.0,Medium,Rain,4.06,2.5,1,491.58,Traffic
+SHP0264,2026-09-21,Bareilly,East,Bike,398.6,3.6,4,2.6,Medium,Rain,10.23,4.0,1,1018.36,Warehouse Delay
+SHP0265,2026-09-22,Bareilly,Central,Truck,243.6,4.6,3,5.0,Low,Rain,5.57,4.0,1,597.47,Traffic
+SHP0266,2026-09-23,Jaipur,East,Bike,339.2,3.0,4,15.2,Medium,Cloudy,8.99,4.0,1,872.67,Warehouse Delay
+SHP0267,2026-09-24,Jaipur,West,Bike,74.0,34.6,2,3.5,High,Clear,2.38,1.5,1,562.21,Route Congestion
+SHP0268,2026-09-25,Lucknow,Central,Bike,411.1,3.1,4,4.9,Low,Clear,10.22,4.0,1,1002.9,Route Congestion
+SHP0269,2026-09-26,Kanpur,North,Bike,210.9,5.1,1,10.3,Low,Clear,5.89,2.5,1,498.4,Route Congestion
+SHP0270,2026-09-27,Jaipur,Central,Van,208.9,29.0,3,4.7,Low,Cloudy,4.63,2.5,1,809.64,Warehouse Delay
+SHP0271,2026-09-28,Lucknow,West,Bike,407.9,20.5,4,3.8,Medium,Clear,10.44,4.0,1,1197.71,Traffic
+SHP0272,2026-09-29,Delhi,East,Van,161.8,27.2,3,10.6,Medium,Cloudy,4.05,2.5,1,770.45,Route Congestion
+SHP0273,2026-09-30,Delhi,North,Van,168.8,22.3,4,7.3,Medium,Clear,4.01,2.5,1,716.3,Warehouse Delay
+SHP0274,2026-10-01,Bareilly,West,Truck,246.8,30.9,2,11.6,Medium,Clear,6.2,4.0,1,892.92,Weather
+SHP0275,2026-10-02,Jaipur,East,Bike,56.4,22.5,1,16.5,Low,Clear,2.44,1.5,1,409.39,Traffic
+SHP0276,2026-10-03,Jaipur,East,Truck,136.9,18.5,4,3.6,Low,Clear,3.36,2.5,1,504.92,Weather
+SHP0277,2026-10-04,Jaipur,Central,Van,83.6,25.1,1,16.5,Low,Clear,2.82,2.5,1,428.95,Weather
+SHP0278,2026-10-05,Kanpur,North,Bike,46.1,15.9,4,16.3,High,Clear,2.35,1.5,1,421.87,Route Congestion
+SHP0279,2026-10-06,Delhi,Central,Van,364.2,12.4,3,15.1,Medium,Cloudy,8.05,4.0,1,930.09,Traffic
+SHP0280,2026-10-07,Delhi,East,Truck,248.8,16.6,4,11.7,Medium,Clear,6.0,4.0,1,806.02,Warehouse Delay
+SHP0281,2026-10-08,Lucknow,East,Bike,152.6,6.4,2,11.5,Medium,Clear,4.63,2.5,1,448.98,Route Congestion
+SHP0282,2026-10-09,Jaipur,West,Truck,173.4,28.0,4,11.9,Low,Clear,4.61,2.5,1,721.36,Warehouse Delay
+SHP0283,2026-10-10,Kanpur,North,Van,182.9,9.5,1,12.7,Low,Clear,4.39,2.5,1,498.01,Weather
+SHP0284,2026-10-11,Jaipur,North,Van,267.0,5.8,2,1.3,Low,Clear,5.7,4.0,1,710.1,Traffic
+SHP0285,2026-10-12,Jaipur,Central,Truck,389.5,9.0,1,17.3,High,Cloudy,9.18,4.0,1,1051.1,Weather
+SHP0286,2026-10-13,Bareilly,West,Van,392.0,29.6,4,11.0,Medium,Cloudy,8.44,4.0,1,1281.21,Warehouse Delay
+SHP0287,2026-10-14,Delhi,North,Truck,166.3,11.9,3,14.3,Medium,Clear,4.49,2.5,1,575.88,Weather
+SHP0288,2026-10-15,Jaipur,West,Bike,140.3,24.2,4,7.4,Low,Clear,3.91,2.5,1,585.54,Route Congestion
+SHP0289,2026-10-16,Jaipur,West,Van,191.1,30.0,4,1.2,Low,Clear,4.36,2.5,1,765.22,Weather
+SHP0290,2026-10-17,Jaipur,North,Van,239.8,3.2,2,9.7,Medium,Clear,5.44,4.0,1,596.32,Warehouse Delay
+SHP0291,2026-10-18,Bareilly,North,Bike,195.6,26.9,1,9.6,Medium,Cloudy,5.46,2.5,1,763.85,Traffic
+SHP0292,2026-10-19,Lucknow,Central,Van,277.7,11.1,4,8.4,High,Clear,6.25,4.0,1,885.6,Warehouse Delay
+SHP0293,2026-10-20,Bareilly,West,Bike,234.2,8.0,2,6.8,Medium,Cloudy,6.07,4.0,1,760.95,Route Congestion
+SHP0294,2026-10-21,Lucknow,East,Bike,136.7,24.3,1,5.2,Medium,Clear,3.81,2.5,1,577.84,Traffic
+SHP0295,2026-10-22,Jaipur,Central,Bike,147.2,31.9,4,10.0,Medium,Clear,4.47,2.5,1,717.21,Weather
+SHP0296,2026-10-23,Jaipur,Central,Bike,160.9,10.7,4,7.4,High,Clear,4.62,2.5,1,590.08,Warehouse Delay
+SHP0297,2026-10-24,Bareilly,East,Bike,42.5,20.1,2,17.5,Medium,Clear,2.07,1.5,1,378.7,Warehouse Delay
+SHP0298,2026-10-25,Jaipur,Central,Bike,72.2,10.5,4,3.9,Medium,Rain,2.58,1.5,1,386.09,Weather
+SHP0299,2026-10-26,Lucknow,Central,Van,304.5,19.6,1,6.4,High,Clear,6.84,4.0,1,961.21,Warehouse Delay
+SHP0300,2026-10-27,Delhi,Central,Van,165.3,22.0,1,6.0,Low,Cloudy,3.86,2.5,1,648.42,Warehouse Delay
+SHP0301,2026-10-28,Lucknow,North,Van,92.5,21.6,2,10.2,High,Cloudy,2.73,2.5,1,515.68,Weather
+SHP0302,2026-10-29,Bareilly,Central,Bike,237.6,22.0,3,9.5,Low,Clear,6.37,4.0,1,824.36,Route Congestion
+SHP0303,2026-10-30,Delhi,West,Truck,318.1,5.2,1,11.9,Medium,Clear,7.46,4.0,1,836.56,Route Congestion
+SHP0304,2026-10-31,Bareilly,East,Van,110.3,24.4,1,17.2,Medium,Clear,3.15,2.5,1,543.32,Weather
+SHP0305,2026-11-01,Jaipur,West,Bike,347.8,23.8,3,5.8,Medium,Clear,8.83,4.0,1,1061.95,Weather
+SHP0306,2026-11-02,Delhi,East,Bike,389.8,24.0,4,12.8,Medium,Cloudy,10.19,4.0,1,1262.0,Route Congestion
+SHP0307,2026-11-03,Lucknow,West,Van,252.1,3.1,3,1.4,Medium,Clear,5.22,4.0,1,652.32,Warehouse Delay
+SHP0308,2026-11-04,Jaipur,North,Bike,282.0,15.9,4,5.5,Low,Rain,7.21,4.0,1,852.83,Warehouse Delay
+SHP0309,2026-11-05,Lucknow,Central,Van,24.9,14.6,4,8.9,Low,Clear,1.23,1.5,0,251.68,None
+SHP0310,2026-11-06,Delhi,East,Truck,397.3,3.5,3,1.5,Low,Clear,8.72,4.0,1,1029.19,Weather
+SHP0311,2026-11-07,Kanpur,North,Bike,166.7,8.2,3,11.5,Medium,Cloudy,5.11,2.5,1,574.24,Weather
+SHP0312,2026-11-08,Kanpur,East,Bike,388.3,15.7,4,12.5,Medium,Clear,10.12,4.0,1,1075.4,Traffic
+SHP0313,2026-11-09,Delhi,West,Truck,244.4,26.1,2,13.7,Low,Rain,6.15,4.0,1,847.3,Route Congestion
+SHP0314,2026-11-10,Lucknow,Central,Van,4.9,8.7,1,9.8,High,Clear,1.1,1.5,0,229.85,None
+SHP0315,2026-11-11,Lucknow,East,Bike,19.1,29.1,4,11.3,Medium,Rain,1.43,1.5,0,407.88,None
+SHP0316,2026-11-12,Kanpur,East,Truck,286.7,19.3,2,7.7,Medium,Cloudy,6.84,4.0,1,915.64,Weather
+SHP0317,2026-11-13,Kanpur,North,Truck,237.6,26.7,4,1.7,Medium,Cloudy,5.57,4.0,1,887.77,Route Congestion
+SHP0318,2026-11-14,Kanpur,North,Van,14.1,16.8,2,2.7,Low,Clear,0.77,1.5,0,258.06,None
+SHP0319,2026-11-15,Bareilly,West,Van,313.0,17.7,4,12.1,Medium,Cloudy,6.95,4.0,1,953.78,Weather
+SHP0320,2026-11-16,Kanpur,East,Bike,358.3,21.9,1,17.9,Medium,Clear,9.67,4.0,1,1069.53,Traffic
+SHP0321,2026-11-17,Lucknow,North,Bike,210.0,32.5,3,1.3,Low,Cloudy,5.26,2.5,1,833.03,Warehouse Delay
+SHP0322,2026-11-18,Delhi,West,Van,197.2,17.5,2,10.5,High,Clear,4.69,2.5,1,727.55,Route Congestion
+SHP0323,2026-11-19,Kanpur,North,Bike,5.3,18.7,2,13.8,High,Clear,1.18,1.5,0,301.26,None
+SHP0324,2026-11-20,Bareilly,West,Van,331.0,21.3,2,15.1,Medium,Clear,7.29,4.0,1,1061.63,Traffic
+SHP0325,2026-11-21,Bareilly,West,Truck,140.9,25.9,4,10.3,High,Clear,3.98,2.5,1,667.27,Traffic
+SHP0326,2026-11-22,Lucknow,North,Bike,369.4,3.0,2,11.5,High,Clear,9.98,4.0,1,980.18,Weather
+SHP0327,2026-11-23,Lucknow,West,Van,158.6,18.3,4,12.8,Low,Cloudy,3.85,2.5,1,587.48,Weather
+SHP0328,2026-11-24,Delhi,East,Bike,238.6,17.1,2,15.6,Medium,Clear,6.8,4.0,1,827.47,Route Congestion
+SHP0329,2026-11-25,Delhi,East,Truck,115.7,32.3,1,3.1,Medium,Cloudy,2.87,2.5,1,594.83,Route Congestion
+SHP0330,2026-11-26,Jaipur,North,Bike,70.0,17.5,4,16.7,Low,Clear,2.68,1.5,1,375.27,Weather
+SHP0331,2026-11-27,Jaipur,North,Van,326.1,16.7,1,1.4,Low,Cloudy,6.62,4.0,1,874.47,Weather
+SHP0332,2026-11-28,Lucknow,North,Van,210.1,33.7,2,15.2,Low,Cloudy,5.12,2.5,1,835.34,Route Congestion
+SHP0333,2026-11-29,Lucknow,Central,Van,226.7,16.0,4,2.3,Medium,Clear,4.81,4.0,1,706.35,Traffic
+SHP0334,2026-11-30,Bareilly,North,Van,405.6,6.7,4,4.3,Medium,Cloudy,8.55,4.0,1,1038.59,Weather
+SHP0335,2026-12-01,Jaipur,East,Van,404.8,8.0,4,1.1,Medium,Rain,8.34,4.0,1,989.99,Warehouse Delay
+SHP0336,2026-12-02,Bareilly,East,Van,359.8,3.8,2,8.6,Low,Cloudy,7.57,4.0,1,885.18,Route Congestion
+SHP0337,2026-12-03,Bareilly,East,Van,81.2,0.5,4,6.7,Low,Clear,2.04,2.5,0,254.57,None
+SHP0338,2026-12-04,Lucknow,North,Truck,250.8,15.4,2,3.8,Medium,Clear,5.85,4.0,1,724.74,Weather
+SHP0339,2026-12-05,Lucknow,North,Van,369.2,27.0,3,8.7,Medium,Cloudy,8.02,4.0,1,1185.78,Weather
+SHP0340,2026-12-06,Bareilly,East,Van,159.2,25.8,3,7.8,High,Clear,3.98,2.5,1,684.71,Weather
+SHP0341,2026-12-07,Kanpur,Central,Bike,45.2,1.6,1,14.1,High,Cloudy,2.51,1.5,1,271.47,Weather
+SHP0342,2026-12-08,Lucknow,West,Van,341.2,20.2,2,16.2,High,Clear,7.97,4.0,1,1034.84,Traffic
+SHP0343,2026-12-09,Kanpur,East,Van,203.9,5.8,2,12.1,High,Cloudy,4.97,2.5,1,690.64,Warehouse Delay
+SHP0344,2026-12-10,Jaipur,North,Van,238.4,33.0,2,3.1,High,Clear,5.23,4.0,1,979.79,Weather
+SHP0345,2026-12-11,Bareilly,North,Bike,412.6,6.3,2,6.0,Medium,Clear,10.56,4.0,1,1007.51,Weather
+SHP0346,2026-12-12,Lucknow,North,Truck,256.2,22.1,3,16.5,Low,Rain,6.38,4.0,1,798.63,Traffic
+SHP0347,2026-12-13,Bareilly,North,Van,180.2,11.8,1,2.5,Low,Cloudy,4.08,2.5,1,571.82,Route Congestion
+SHP0348,2026-12-14,Bareilly,North,Van,157.3,22.6,1,7.9,Medium,Cloudy,3.85,2.5,1,619.41,Route Congestion
+SHP0349,2026-12-15,Delhi,East,Bike,177.1,14.7,4,17.0,Low,Rain,5.41,2.5,1,600.14,Weather
+SHP0350,2026-12-16,Delhi,West,Truck,52.4,26.7,2,17.2,Low,Clear,2.24,1.5,1,466.49,Traffic
+SHP0351,2026-12-17,Jaipur,East,Bike,334.4,8.5,3,8.0,High,Clear,9.06,4.0,1,925.26,Route Congestion
+SHP0352,2026-12-18,Delhi,East,Bike,352.3,31.7,3,12.3,Low,Clear,9.27,4.0,1,1126.94,Traffic
+SHP0353,2026-12-19,Lucknow,East,Truck,121.6,17.8,3,8.8,High,Clear,3.44,2.5,1,611.05,Warehouse Delay
+SHP0354,2026-12-20,Jaipur,North,Truck,129.7,26.6,2,13.8,Medium,Clear,3.89,2.5,1,645.57,Route Congestion
+SHP0355,2026-12-21,Bareilly,Central,Bike,367.6,29.8,2,1.5,Medium,Rain,9.47,4.0,1,1151.95,Weather
+SHP0356,2026-12-22,Bareilly,East,Van,13.0,35.0,4,3.5,Medium,Clear,0.79,1.5,0,455.84,None
+SHP0357,2026-12-23,Delhi,North,Van,220.0,8.2,4,11.4,Low,Clear,5.06,4.0,1,578.94,Traffic
+SHP0358,2026-12-24,Bareilly,North,Truck,196.4,10.4,2,5.0,Medium,Clear,4.76,2.5,1,577.89,Warehouse Delay
+SHP0359,2026-12-25,Delhi,West,Van,290.8,9.1,3,12.3,Low,Clear,6.5,4.0,1,799.26,Weather
+SHP0360,2026-12-26,Kanpur,East,Van,71.1,9.6,4,7.0,High,Clear,2.05,1.5,1,402.44,Weather
+SHP0361,2026-12-27,Bareilly,East,Van,281.7,20.6,1,16.1,Low,Cloudy,6.27,4.0,1,850.68,Traffic
+SHP0362,2026-12-28,Bareilly,East,Van,160.1,34.8,4,14.9,Low,Clear,3.94,2.5,1,786.79,Traffic
+SHP0363,2026-12-29,Lucknow,North,Van,261.0,34.7,2,9.4,Medium,Clear,5.73,4.0,1,930.89,Weather
+SHP0364,2026-12-30,Bareilly,East,Van,19.7,18.7,4,14.1,Medium,Cloudy,1.34,1.5,0,325.39,None
+SHP0365,2026-12-31,Delhi,East,Bike,195.5,22.5,3,5.6,Medium,Clear,5.4,2.5,1,740.43,Traffic
+SHP0366,2027-01-01,Jaipur,West,Truck,220.8,30.2,4,9.4,Medium,Cloudy,5.43,4.0,1,844.87,Warehouse Delay
+SHP0367,2027-01-02,Jaipur,East,Truck,92.4,32.7,1,4.4,Low,Clear,2.48,2.5,0,600.06,None
+SHP0368,2027-01-03,Lucknow,East,Van,61.2,7.5,1,15.6,Medium,Clear,2.11,1.5,1,317.88,Traffic
+SHP0369,2027-01-04,Delhi,Central,Bike,81.6,18.7,4,15.0,Low,Clear,2.86,2.5,1,446.89,Traffic
+SHP0370,2027-01-05,Kanpur,North,Bike,146.5,29.2,3,16.3,Low,Rain,4.69,2.5,1,721.57,Traffic
+SHP0371,2027-01-06,Lucknow,Central,Van,43.4,11.0,3,15.9,Low,Clear,1.92,1.5,1,220.85,Warehouse Delay
+SHP0372,2027-01-07,Kanpur,North,Bike,398.0,15.7,1,17.3,Low,Clear,10.46,4.0,1,1053.73,Traffic
+SHP0373,2027-01-08,Jaipur,North,Truck,171.9,34.5,1,4.9,Low,Clear,4.15,2.5,1,749.91,Traffic
+SHP0374,2027-01-09,Lucknow,North,Van,340.3,34.5,4,16.8,Medium,Cloudy,7.96,4.0,1,1133.14,Warehouse Delay
+SHP0375,2027-01-10,Bareilly,West,Van,409.3,31.8,2,10.7,Low,Cloudy,8.69,4.0,1,1245.72,Traffic
+SHP0376,2027-01-11,Delhi,West,Truck,36.7,28.0,3,8.2,Low,Clear,1.37,1.5,0,373.17,None
+SHP0377,2027-01-12,Kanpur,West,Van,274.7,9.8,2,10.5,Medium,Cloudy,6.15,4.0,1,801.97,Weather
+SHP0378,2027-01-13,Kanpur,West,Bike,366.4,11.6,2,6.8,Low,Cloudy,9.39,4.0,1,998.18,Traffic
+SHP0379,2027-01-14,Lucknow,West,Van,267.5,19.4,1,5.9,Medium,Clear,5.81,4.0,1,846.26,Weather
+SHP0380,2027-01-15,Lucknow,West,Van,181.9,19.8,4,5.1,High,Clear,4.27,2.5,1,672.44,Weather
+SHP0381,2027-01-16,Delhi,North,Van,182.8,17.9,4,2.4,Medium,Clear,3.88,2.5,1,643.28,Weather
+SHP0382,2027-01-17,Bareilly,East,Van,18.0,22.5,1,9.4,High,Rain,1.28,1.5,0,392.96,None
+SHP0383,2027-01-18,Bareilly,Central,Truck,225.9,14.6,2,16.1,Low,Clear,5.71,4.0,1,686.83,Route Congestion
+SHP0384,2027-01-19,Lucknow,North,Van,417.3,26.3,3,11.7,Low,Clear,8.84,4.0,1,1120.6,Traffic
+SHP0385,2027-01-20,Delhi,East,Bike,402.8,12.0,2,9.9,Medium,Clear,10.37,4.0,1,1116.52,Traffic
+SHP0386,2027-01-21,Delhi,West,Van,19.8,11.9,3,8.3,Medium,Clear,1.14,1.5,0,265.45,None
+SHP0387,2027-01-22,Delhi,North,Van,297.3,4.9,2,8.9,High,Cloudy,6.67,4.0,1,798.63,Weather
+SHP0388,2027-01-23,Bareilly,North,Bike,128.8,7.0,1,4.6,Low,Clear,3.72,2.5,1,431.74,Route Congestion
+SHP0389,2027-01-24,Bareilly,North,Bike,379.5,29.8,2,15.0,Medium,Cloudy,10.1,4.0,1,1159.41,Route Congestion
+SHP0390,2027-01-25,Delhi,Central,Van,21.8,15.9,3,4.4,Medium,Clear,1.08,1.5,0,276.87,None
+SHP0391,2027-01-26,Kanpur,North,Bike,393.3,8.4,1,13.2,Low,Clear,10.2,4.0,1,990.74,Warehouse Delay
+SHP0392,2027-01-27,Delhi,West,Truck,352.2,26.7,4,13.9,Low,Clear,8.34,4.0,1,1152.87,Warehouse Delay
+SHP0393,2027-01-28,Lucknow,West,Bike,52.0,19.6,1,10.8,High,Cloudy,2.31,1.5,1,477.03,Traffic
+SHP0394,2027-01-29,Jaipur,East,Bike,27.9,1.2,1,15.7,Low,Clear,1.77,1.5,1,140.37,Warehouse Delay
+SHP0395,2027-01-30,Kanpur,West,Van,351.1,11.4,3,5.9,High,Clear,7.64,4.0,1,1029.65,Weather
+SHP0396,2027-01-31,Bareilly,West,Truck,68.0,6.6,3,16.0,Medium,Cloudy,2.61,1.5,1,344.3,Traffic
+SHP0397,2027-02-01,Delhi,West,Bike,226.1,23.1,2,13.4,Medium,Clear,6.36,4.0,1,749.02,Route Congestion
+SHP0398,2027-02-02,Delhi,North,Bike,384.9,10.0,2,14.6,Medium,Clear,10.24,4.0,1,1039.08,Route Congestion
+SHP0399,2027-02-03,Lucknow,North,Bike,239.6,2.7,1,12.3,High,Clear,6.9,4.0,1,645.75,Warehouse Delay
+SHP0400,2027-02-04,Lucknow,West,Van,168.6,2.4,3,15.4,Low,Cloudy,4.18,2.5,1,476.24,Route Congestion
+SHP0401,2027-02-05,Bareilly,North,Van,188.6,20.6,2,17.9,Low,Clear,4.65,2.5,1,651.93,Traffic
+SHP0402,2027-02-06,Kanpur,North,Bike,29.3,1.2,1,8.1,Medium,Clear,1.49,1.5,0,178.34,None
+SHP0403,2027-02-07,Lucknow,North,Bike,407.0,29.8,2,14.8,Medium,Clear,10.79,4.0,1,1246.38,Route Congestion
+SHP0404,2027-02-08,Bareilly,East,Van,132.5,5.9,4,13.7,Low,Clear,3.37,2.5,1,323.42,Traffic
+SHP0405,2027-02-09,Jaipur,Central,Truck,82.0,21.4,2,8.7,Low,Clear,2.41,2.5,0,444.16,None
+SHP0406,2027-02-10,Jaipur,West,Van,122.3,15.8,4,16.8,Low,Clear,3.39,2.5,1,520.62,Warehouse Delay
+SHP0407,2027-02-11,Jaipur,Central,Van,405.1,15.8,2,7.7,Low,Clear,8.2,4.0,1,1097.77,Route Congestion
+SHP0408,2027-02-12,Delhi,North,Bike,42.3,3.0,1,10.6,Low,Clear,1.77,1.5,1,171.35,Traffic
+SHP0409,2027-02-13,Bareilly,Central,Bike,364.7,28.2,2,2.8,High,Cloudy,9.36,4.0,1,1239.38,Traffic
+SHP0410,2027-02-14,Delhi,North,Bike,298.2,31.3,2,4.8,Low,Clear,7.63,4.0,1,1002.73,Warehouse Delay
+SHP0411,2027-02-15,Delhi,East,Van,349.1,0.9,1,15.3,High,Clear,8.08,4.0,1,905.98,Traffic
+SHP0412,2027-02-16,Lucknow,North,Truck,409.9,6.7,3,7.7,High,Rain,9.38,4.0,1,1134.14,Warehouse Delay
+SHP0413,2027-02-17,Lucknow,Central,Truck,354.2,31.7,2,7.7,Low,Cloudy,7.97,4.0,1,1128.52,Weather
+SHP0414,2027-02-18,Delhi,East,Truck,396.4,19.5,3,5.2,Medium,Cloudy,8.62,4.0,1,1107.33,Weather
+SHP0415,2027-02-19,Delhi,West,Truck,55.9,5.7,2,9.4,Medium,Clear,1.93,1.5,1,185.14,Weather
+SHP0416,2027-02-20,Kanpur,Central,Truck,334.8,7.5,2,14.7,Medium,Clear,7.97,4.0,1,869.62,Traffic
+SHP0417,2027-02-21,Bareilly,West,Bike,230.5,23.3,2,16.2,Low,Clear,6.45,4.0,1,800.91,Traffic
+SHP0418,2027-02-22,Delhi,East,Bike,229.6,25.5,1,2.2,Low,Clear,6.04,4.0,1,767.78,Route Congestion
+SHP0419,2027-02-23,Lucknow,Central,Bike,377.9,21.2,3,10.8,Low,Clear,9.9,4.0,1,1112.33,Warehouse Delay
+SHP0420,2027-02-24,Jaipur,West,Van,408.2,33.4,1,8.9,Medium,Clear,8.66,4.0,1,1270.44,Traffic
+SHP0421,2027-02-25,Bareilly,East,Bike,296.9,17.5,3,11.4,High,Clear,8.06,4.0,1,996.92,Warehouse Delay
+SHP0422,2027-02-26,Kanpur,West,Truck,204.4,10.9,4,8.6,Medium,Clear,5.17,2.5,1,650.23,Traffic
+SHP0423,2027-02-27,Kanpur,Central,Van,193.3,17.0,4,7.8,Medium,Clear,4.47,2.5,1,707.96,Warehouse Delay
+SHP0424,2027-02-28,Jaipur,North,Van,164.1,12.9,2,9.0,High,Clear,3.99,2.5,1,630.62,Route Congestion
+SHP0425,2027-03-01,Jaipur,North,Bike,153.8,8.2,2,10.9,Medium,Cloudy,4.36,2.5,1,556.03,Warehouse Delay
+SHP0426,2027-03-02,Delhi,East,Bike,166.3,2.1,4,9.5,Low,Cloudy,4.67,2.5,1,409.71,Weather
+SHP0427,2027-03-03,Bareilly,West,Bike,40.4,12.7,2,9.0,High,Clear,1.99,1.5,1,329.12,Warehouse Delay
+SHP0428,2027-03-04,Bareilly,Central,Truck,35.3,25.0,2,14.9,Medium,Clear,2.06,1.5,1,429.59,Warehouse Delay
+SHP0429,2027-03-05,Delhi,Central,Van,328.2,1.1,4,13.7,Low,Clear,7.24,4.0,1,862.64,Weather
+SHP0430,2027-03-06,Kanpur,West,Van,189.0,15.7,4,6.8,Medium,Clear,4.26,2.5,1,679.05,Weather
+SHP0431,2027-03-07,Delhi,West,Bike,391.1,22.7,4,14.6,High,Cloudy,10.36,4.0,1,1202.92,Warehouse Delay
+SHP0432,2027-03-08,Kanpur,West,Van,258.3,21.6,1,15.5,Low,Clear,6.03,4.0,1,833.24,Traffic
+SHP0433,2027-03-09,Bareilly,Central,Van,17.7,27.3,4,3.6,Medium,Clear,0.71,1.5,0,437.16,None
+SHP0434,2027-03-10,Delhi,West,Van,68.7,28.5,1,10.9,Low,Clear,2.19,1.5,1,448.62,Traffic
+SHP0435,2027-03-11,Jaipur,Central,Van,88.8,25.1,3,5.9,Low,Clear,2.4,2.5,0,509.38,None
+SHP0436,2027-03-12,Delhi,East,Bike,409.9,4.0,4,13.6,Low,Clear,10.73,4.0,1,1051.6,Warehouse Delay
+SHP0437,2027-03-13,Jaipur,North,Truck,94.2,16.9,3,5.1,Medium,Clear,2.58,2.5,1,531.8,Route Congestion
+SHP0438,2027-03-14,Bareilly,North,Bike,218.1,21.3,4,12.4,High,Rain,6.44,2.5,1,854.61,Warehouse Delay
+SHP0439,2027-03-15,Delhi,Central,Truck,393.4,9.0,2,5.3,Low,Clear,8.79,4.0,1,997.35,Weather
+SHP0440,2027-03-16,Lucknow,West,Bike,410.5,2.0,2,9.7,Low,Clear,10.43,4.0,1,967.68,Weather
+SHP0441,2027-03-17,Bareilly,West,Bike,101.6,8.2,2,17.1,Low,Clear,3.7,2.5,1,380.75,Warehouse Delay
+SHP0442,2027-03-18,Lucknow,Central,Truck,23.5,16.2,2,7.5,Low,Clear,1.11,1.5,0,261.28,None
+SHP0443,2027-03-19,Delhi,East,Bike,67.1,14.8,3,15.9,Medium,Clear,2.79,1.5,1,395.1,Weather
+SHP0444,2027-03-20,Jaipur,Central,Van,29.4,6.6,2,17.8,Medium,Clear,1.45,1.5,0,184.58,None
+SHP0445,2027-03-21,Jaipur,North,Van,84.4,28.9,3,15.9,Medium,Cloudy,2.89,2.5,1,597.96,Warehouse Delay
+SHP0446,2027-03-22,Kanpur,North,Bike,240.1,32.4,2,3.8,Medium,Clear,6.48,4.0,1,866.91,Route Congestion
+SHP0447,2027-03-23,Lucknow,East,Van,383.5,7.4,2,14.9,Medium,Clear,8.43,4.0,1,975.0,Weather
+SHP0448,2027-03-24,Bareilly,North,Truck,227.0,32.6,1,1.5,Low,Clear,5.21,4.0,1,841.87,Traffic
+SHP0449,2027-03-25,Jaipur,East,Truck,264.0,1.1,3,7.7,Low,Clear,6.24,4.0,1,728.18,Route Congestion
+SHP0450,2027-03-26,Lucknow,Central,Bike,87.2,32.4,4,15.8,High,Clear,3.22,2.5,1,632.29,Traffic
+SHP0451,2027-03-27,Bareilly,North,Van,336.8,33.3,4,12.7,Medium,Cloudy,7.53,4.0,1,1123.51,Weather
+SHP0452,2027-03-28,Bareilly,Central,Bike,260.6,0.9,2,10.1,High,Clear,7.09,4.0,1,693.11,Warehouse Delay
+SHP0453,2027-03-29,Jaipur,West,Bike,363.3,26.8,2,7.6,High,Clear,9.45,4.0,1,1224.36,Weather
+SHP0454,2027-03-30,Delhi,Central,Bike,398.7,34.0,3,14.8,Medium,Cloudy,10.7,4.0,1,1175.77,Route Congestion
+SHP0455,2027-03-31,Jaipur,East,Truck,148.1,31.8,3,13.1,High,Clear,4.31,2.5,1,725.52,Weather
+SHP0456,2027-04-01,Jaipur,West,Truck,40.8,34.0,1,9.0,Medium,Clear,1.57,1.5,1,576.32,Weather
+SHP0457,2027-04-02,Delhi,Central,Van,97.2,19.5,3,16.2,Low,Clear,2.81,2.5,1,486.16,Route Congestion
+SHP0458,2027-04-03,Kanpur,West,Van,185.6,3.2,1,4.9,Low,Cloudy,4.07,2.5,1,446.13,Weather
+SHP0459,2027-04-04,Bareilly,East,Van,397.4,29.8,1,3.9,Low,Clear,8.24,4.0,1,1178.14,Route Congestion
+SHP0460,2027-04-05,Delhi,Central,Van,160.8,21.7,3,11.9,Low,Cloudy,3.84,2.5,1,624.38,Warehouse Delay
+SHP0461,2027-04-06,Kanpur,North,Van,324.4,21.7,1,17.5,Medium,Cloudy,7.46,4.0,1,1009.37,Traffic
+SHP0462,2027-04-07,Delhi,Central,Van,228.4,14.9,2,5.2,Medium,Cloudy,5.15,4.0,1,788.54,Traffic
+SHP0463,2027-04-08,Kanpur,East,Bike,79.2,20.2,3,5.2,Medium,Rain,2.63,1.5,1,476.68,Weather
+SHP0464,2027-04-09,Jaipur,North,Bike,136.7,5.8,3,3.4,Medium,Cloudy,3.97,2.5,1,438.21,Weather
+SHP0465,2027-04-10,Delhi,East,Truck,275.4,26.0,2,15.6,Low,Cloudy,6.72,4.0,1,922.66,Traffic
+SHP0466,2027-04-11,Bareilly,West,Van,283.6,3.1,1,4.8,Medium,Cloudy,6.08,4.0,1,700.2,Traffic
+SHP0467,2027-04-12,Delhi,West,Truck,184.3,25.7,4,9.6,Medium,Cloudy,4.58,2.5,1,714.38,Route Congestion
+SHP0468,2027-04-13,Jaipur,Central,Bike,98.3,29.8,4,17.8,Low,Cloudy,3.58,2.5,1,510.95,Weather
+SHP0469,2027-04-14,Delhi,East,Van,304.0,16.8,4,1.2,Low,Rain,6.26,4.0,1,843.02,Route Congestion
+SHP0470,2027-04-15,Bareilly,North,Bike,73.4,18.1,3,10.5,Low,Clear,2.58,1.5,1,370.33,Traffic
+SHP0471,2027-04-16,Kanpur,Central,Bike,393.6,11.3,2,9.7,Low,Clear,10.12,4.0,1,975.72,Traffic
+SHP0472,2027-04-17,Bareilly,Central,Bike,81.4,33.9,4,14.7,High,Clear,2.98,2.5,1,659.07,Warehouse Delay
+SHP0473,2027-04-18,Jaipur,Central,Bike,47.7,25.8,2,7.0,Medium,Cloudy,1.81,1.5,1,391.78,Route Congestion
+SHP0474,2027-04-19,Jaipur,Central,Truck,210.5,13.2,1,8.0,Medium,Clear,5.32,2.5,1,548.35,Weather
+SHP0475,2027-04-20,Kanpur,North,Bike,219.7,6.5,4,3.9,Low,Cloudy,5.79,2.5,1,587.32,Route Congestion
+SHP0476,2027-04-21,Kanpur,North,Van,214.9,8.1,2,13.6,High,Cloudy,5.16,2.5,1,662.42,Warehouse Delay
+SHP0477,2027-04-22,Bareilly,North,Van,185.1,16.5,4,14.3,Medium,Rain,4.73,2.5,1,648.27,Warehouse Delay
+SHP0478,2027-04-23,Delhi,West,Van,417.8,33.0,2,3.3,Low,Clear,8.5,4.0,1,1317.45,Weather
+SHP0479,2027-04-24,Kanpur,Central,Van,205.8,25.8,4,7.7,Medium,Cloudy,5.15,2.5,1,776.2,Route Congestion
+SHP0480,2027-04-25,Delhi,West,Bike,202.3,7.9,3,16.2,Medium,Cloudy,5.98,2.5,1,647.88,Warehouse Delay
+SHP0481,2027-04-26,Lucknow,West,Truck,178.9,30.2,2,1.0,Medium,Rain,4.26,2.5,1,754.77,Weather
+SHP0482,2027-04-27,Bareilly,West,Truck,30.9,13.5,2,6.1,Low,Rain,1.52,1.5,1,255.45,Route Congestion
+SHP0483,2027-04-28,Lucknow,West,Van,250.3,29.9,4,10.4,Medium,Clear,5.46,4.0,1,901.01,Warehouse Delay
+SHP0484,2027-04-29,Kanpur,West,Van,98.1,8.8,1,6.7,Low,Clear,2.53,2.5,1,345.06,Route Congestion
+SHP0485,2027-04-30,Jaipur,West,Bike,268.9,21.8,2,5.6,Low,Clear,7.23,4.0,1,816.56,Weather
+SHP0486,2027-05-01,Lucknow,West,Truck,24.2,32.5,2,8.8,Low,Rain,1.31,1.5,0,419.48,None
+SHP0487,2027-05-02,Lucknow,West,Bike,412.2,9.4,3,4.1,High,Clear,10.34,4.0,1,1118.56,Warehouse Delay
+SHP0488,2027-05-03,Jaipur,Central,Bike,198.6,24.4,2,10.0,Low,Cloudy,5.47,2.5,1,682.53,Weather
+SHP0489,2027-05-04,Kanpur,North,Bike,376.9,34.6,3,13.0,Medium,Cloudy,10.14,4.0,1,1267.45,Warehouse Delay
+SHP0490,2027-05-05,Kanpur,East,Van,201.3,5.7,2,10.8,Low,Clear,4.72,2.5,1,568.03,Weather
+SHP0491,2027-05-06,Bareilly,Central,Van,28.2,3.5,1,2.6,High,Clear,1.11,1.5,0,208.45,None
+SHP0492,2027-05-07,Bareilly,West,Van,345.9,23.8,1,15.4,Medium,Clear,7.64,4.0,1,1049.98,Weather
+SHP0493,2027-05-08,Kanpur,North,Van,273.3,12.2,3,4.0,High,Cloudy,5.93,4.0,1,850.46,Route Congestion
+SHP0494,2027-05-09,Kanpur,Central,Bike,329.0,3.0,2,14.0,Low,Clear,8.81,4.0,1,772.98,Warehouse Delay
+SHP0495,2027-05-10,Lucknow,West,Truck,181.5,16.9,2,7.1,Low,Clear,4.59,2.5,1,613.79,Warehouse Delay
+SHP0496,2027-05-11,Jaipur,West,Van,269.0,26.5,3,14.3,Medium,Cloudy,6.35,4.0,1,906.11,Warehouse Delay
+SHP0497,2027-05-12,Delhi,West,Van,360.0,10.3,2,4.5,Low,Clear,7.52,4.0,1,902.63,Weather
+SHP0498,2027-05-13,Lucknow,Central,Bike,266.2,12.1,2,4.2,High,Cloudy,6.93,4.0,1,768.43,Weather
+SHP0499,2027-05-14,Bareilly,East,Truck,148.0,29.7,1,9.4,High,Clear,3.87,2.5,1,704.95,Weather
+SHP0500,2027-05-15,Jaipur,West,Bike,279.3,18.4,2,1.6,Medium,Clear,7.21,4.0,1,884.94,Traffic
