@@ -1,54 +1,43 @@
-# Logistics Data Analysis, Cleaning & Preprocessing
+# Logistics Data Analysis & Delivery Optimization
 
-**Yuva Intern Logistics Data Analyst Internship – Week 1 & Week 2**
-
-This portfolio project demonstrates a practical logistics analytics workflow using Python and pandas. Week 2 focuses on data collection simulation, data-quality assessment, cleaning, missing-value handling, duplicate removal, categorical normalization, date conversion, and outlier treatment.
+A portfolio-ready logistics analytics project created for the **Yuva Intern Logistics Data Analyst Internship – Week 1 Task**.
 
 ## Project Objective
 
-Prepare a logistics shipment dataset for reliable downstream analysis by identifying and correcting common data-quality problems while keeping the preprocessing workflow reproducible.
+Analyze shipment and delivery data to measure logistics performance, identify delay drivers, and provide data-driven recommendations for improving delivery reliability and cost efficiency.
 
-## Dataset
+## Key KPIs
 
-The repository contains a **synthetic logistics dataset** created for demonstration and internship purposes. It represents shipment, transportation, delivery-time, inventory, and cost records. It intentionally includes realistic quality issues so that the preprocessing pipeline can be demonstrated.
+- **On-Time Delivery Rate**
+- **Average Delivery Time**
+- **Cost per Shipment**
+- **Delay Rate**
+- **Average Shipping Distance**
+- **Average Shipment Weight**
+
+## Data
+
+The repository includes a **synthetic logistics dataset** for demonstration and internship project purposes. It contains shipment, warehouse, vehicle, distance, weight, traffic, weather, processing-time, cost, and delivery-performance fields.
 
 > The dataset is synthetic and should not be presented as confidential company data.
 
-## Week 2 Data-Quality Issues
+## Analytics Workflow
 
-- Missing numerical and categorical values
-- Duplicate shipment records
-- Inconsistent category formatting
-- Invalid/mixed date values
-- Extreme numerical observations/outliers
-- Incorrect or inconsistent data types
-
-## Preprocessing Workflow
-
-1. Load the raw CSV with pandas.
-2. Inspect shape, columns, data types, missing values, and duplicates.
-3. Standardize column names and categorical text.
-4. Convert shipment and delivery dates to datetime.
-5. Calculate shipment duration in days.
-6. Impute numerical missing values with the median where appropriate.
-7. Fill missing categorical values with `Unknown`.
-8. Remove duplicate shipment records.
-9. Detect numerical outliers using the IQR method.
-10. Cap extreme values at IQR-based lower/upper bounds rather than deleting valid records automatically.
-11. Validate the cleaned dataset.
-12. Export the cleaned data for further analysis.
+1. Data loading and validation
+2. Data-quality and duplicate checks
+3. Feature engineering
+4. KPI calculation
+5. Exploratory Data Analysis (EDA)
+6. Warehouse and route performance analysis
+7. Business recommendations
+8. Future predictive analytics extensions
 
 ## Repository Structure
 
 ```text
 logistics-data-analysis/
-├── data/
-│   └── logistics_data.csv
-├── notebooks/
-├── reports/
-│   └── figures/
-├── src/
-│   └── analysis.py
+├── logistics_data.csv
+├── analysis.py
 ├── requirements.txt
 └── README.md
 ```
@@ -59,36 +48,28 @@ logistics-data-analysis/
 git clone https://github.com/ankitsharma-data/logistics-data-analysis.git
 cd logistics-data-analysis
 pip install -r requirements.txt
-python src/analysis.py
+python analysis.py
 ```
 
-The script creates `data/logistics_data_cleaned.csv` after preprocessing.
-
-## Key KPIs for Future Analysis
-
-- On-Time Delivery Rate
-- Average Delivery Time
-- Cost per Shipment
-- Delay Rate
-- Average Shipping Distance
-- Average Shipment Weight
-
-## Business Questions
+## Example Business Questions
 
 - Which warehouses have the highest delay rates?
-- Does delivery distance affect delivery time?
+- Does delivery distance strongly affect delivery time?
 - Which traffic and weather conditions are associated with delays?
-- Which operational areas require additional resources?
+- Which operational areas should receive additional resources?
 - How can predictive analytics support proactive delay management?
 
 ## Planned Extensions
 
-- Exploratory Data Analysis (EDA)
 - Power BI dashboard
 - Regression for delivery-time prediction
 - Classification for delay prediction
-- K-Means clustering for shipment segmentation
-- Route and resource optimization
+- K-Means clustering for route/shipment segmentation
+- Optimization for vehicle/resource allocation
+
+## Internship Deliverable
+
+This repository supports the **Week 1 strategic planning and data exploration report** submitted for the Yuva Intern Logistics Data Analyst Internship.
 
 ## Author
 
